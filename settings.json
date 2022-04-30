@@ -1,13 +1,15 @@
 {
   "files.autoSave": "onFocusChange",
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Fira Code SemiBold, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "monospace",
   "editor.fontSize": 12,
   // "editor.wordWrap": "wordWrapColumn",
   "editor.tabSize": 4,
   "prettier.requireConfig": false,
   "prettier.semi": false,
-  "editor.codeActionsOnSave": { "source.fixAll": true },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -16,6 +18,7 @@
   "html.format.enable": false,
   "terminal.integrated.scrollback": 100000000,
   "htmlhint.enable": true,
+
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
@@ -37,10 +40,15 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "workbench.colorTheme": "Gruvbox Dark Medium",
-  "rainbowTags.allowEverywhere": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true
+  },
   "emmet.triggerExpansionOnTab": true,
   "js/ts.implicitProjectConfig.checkJs": true,
   "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.colorTheme": "Catppuccin",
+  "extensions.ignoreRecommendations": true
 }
