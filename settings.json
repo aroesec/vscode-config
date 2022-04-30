@@ -3,7 +3,6 @@
   "editor.fontLigatures": true,
   "editor.fontFamily": "monospace",
   "editor.fontSize": 12,
-  // "editor.wordWrap": "wordWrapColumn",
   "editor.tabSize": 4,
   "prettier.requireConfig": false,
   "prettier.semi": false,
