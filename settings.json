@@ -1,8 +1,8 @@
 {
   "files.autoSave": "onFocusChange",
   "editor.fontLigatures": true,
-  "editor.fontFamily": "monospace",
-  "editor.fontSize": 12,
+  // "editor.fontFamily": "monospace", //comment this out when on windows
+  "editor.fontSize": 14, //put on 12 when not on windows
   "editor.tabSize": 4,
   "prettier.requireConfig": false,
   "prettier.semi": false,
@@ -45,9 +45,12 @@
   },
   "emmet.triggerExpansionOnTab": true,
   "js/ts.implicitProjectConfig.checkJs": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 1,
+  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
   "terminal.integrated.fontFamily": "monospace",
-  "workbench.colorTheme": "Catppuccin",
-  "extensions.ignoreRecommendations": true
+  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cmake.configureOnOpen": true,
+  "redhat.telemetry.enabled": false,
+  "C_Cpp.intelliSenseEngine": "Disabled"
 }
